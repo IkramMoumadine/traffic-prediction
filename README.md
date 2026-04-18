@@ -5,16 +5,16 @@ Prédiction du flux de trafic routier sur le dataset **PEMS07** (pas de 5 minute
 
 ## Modèles implémentés
 
-| Modèle | Script | Description |
-|---|---|---|
-| CNN 1D | mains/main_cnn1d.py | Convolutions temporelles unidimensionnelles |
-| CNN 2D | mains/main_cnn2d.py | Convolutions spatio-temporelles |
-| GRU | mains/main_gru.py | Réseau récurrent multivarié (GRU) |
-| LSTM | mains/main_lstm.py | Réseau récurrent multivarié (LSTM) |
-| GCN | mains/main_gcn.py | Graph Convolutional Network |
-| ARIMA | mains/main_arima.py | Modèle statistique de référence |
-| CNN + ARIMA | mains/main_cnn_arima.py | Hybride CNN + correction ARIMA des résidus |
-| GCN + LSTM | mains/main_gcn_lstm.py | Hybride spatio-temporel GCN-LSTM |
+| Modèle      |          Script         |                  Description                |
+|-------------|-------------------------|---------------------------------------------|
+| CNN 1D      | mains/main_cnn1d.py     | Convolutions temporelles unidimensionnelles |
+| CNN 2D      | mains/main_cnn2d.py     | Convolutions spatio-temporelles             |
+| GRU         | mains/main_gru.py       | Réseau récurrent multivarié (GRU)           |
+| LSTM        | mains/main_lstm.py      | Réseau récurrent multivarié (LSTM)          |
+| GCN         | mains/main_gcn.py       | Graph Convolutional Network                 |
+| ARIMA       | mains/main_arima.py     | Modèle statistique de référence             |
+| CNN + ARIMA | mains/main_cnn_arima.py | Hybride CNN + correction ARIMA des résidus  |
+| GCN + LSTM  | mains/main_gcn_lstm.py  | Hybride spatio-temporel GCN-LSTM            |
 
 ---
 
