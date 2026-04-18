@@ -1,0 +1,10 @@
+numpy==1.26.4
+pandas==2.1.1
+scikit-learn==1.8.0
+scipy==1.17.0
+matplotlib==3.10.8
+statsmodels>=0.14.0
+torch==2.10.0
+networkx==3.6.1
+folium>=0.14.0
+geopy>=2.4.1
